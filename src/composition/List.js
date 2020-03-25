@@ -5,7 +5,11 @@ import Card from './Card';
 function List(props) {
   const cards = props.cards.map(card => {
     return (
-      <Card key={card.id} title={card.title} content={card.content} />
+      <Card
+        key={card.id}
+        title={card.title}
+        content={card.content}
+      />
     )
   }); 
   
@@ -16,6 +20,12 @@ function List(props) {
       </header>
       <div className='List-cards'>
         {cards}
+        <button
+          type="button"
+          class="List-add-button"
+        >
+          + Add Random Card
+        </button>
       </div>
     </section>
   );
