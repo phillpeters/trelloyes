@@ -10,7 +10,6 @@ function App(props) {
         key={list.id}
         header={list.header}
         cards={list.cardIds.map(cardId => {
-          console.log(store.allCards[cardId]);
           return store.allCards[cardId];
         })}
       >
