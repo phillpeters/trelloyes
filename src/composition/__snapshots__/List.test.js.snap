@@ -45,7 +45,7 @@ exports[`renders the UI as expected 1`] = `
       </p>
     </div>
     <button
-      class="List-add-button"
+      className="List-add-button"
       type="button"
     >
       + Add Random Card

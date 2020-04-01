@@ -22,7 +22,7 @@ function List(props) {
         {cards}
         <button
           type="button"
-          class="List-add-button"
+          className="List-add-button"
         >
           + Add Random Card
         </button>
